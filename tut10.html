@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Color Styles and HSL</title>
+</head>
+<body>
+    There are three types of color 
+    1. Hexadecimal styles we define the color in 6 digit hexadecimal number (frm 0 yo F ) .  It is denotaed by #. THe first two digits indicater Red color , next two Green color , and the last two blue color . 
+
+    <p>if we want all H1 tags of purple color </p>
+    <!-- 
+        h1 {
+            color: #00ff00
+        }
+     -->
+
+     RGB{Red, Green Blue} In this we need to give 3 numbers indicating the amount of red, green and blue colors respectively required in the mixed color. The range of each color is from 0 to 255. 
+
+     <!-- Example: If we want all ‘h1’ tags of green color. 
+        h1 {
+            color:rgb(0, 255, 0);
+        }
+    -->
+
+    <address>Note :rgba(0,0,0) is black and rgb(255,255,255) is white color.</address>
+
+    <!-- 
+        RGBA Style [Red Green Blue Alpha] : This style allows us to make the color transparent according to our will. Alpha indicates the degree of transparency. The range of green, blue and red is from 0 to 255 and that of alpha is from 0 to 1.
+
+            Example: If we want all ‘h1’ tags of green color. 
+
+            h1{
+                color:rgba(11, 99, 150, 1);
+            }
+     -->
+
+      <!-- HSL colors : Here ‘H’ stands for hue, ‘S’ for Saturation and ‘L’ for Lightness. HSL color values are specified as: 
+    Syntax:  
+          hsl(hue, saturation, lightness)
+
+        -->
+
+        <div>
+            HSL colors value:
+
+            Hue is the color of the image itself. It’s range is from 0 to 360. 0 is for red, 120 is for green and 240 is for blue.
+            Saturation is the intensity/purity of the hue. 0% is for a shade of gray, and 100% is the full color. 
+            When color is fully saturated, the color is considered in purest/truest version.
+            Lightness is the color space’s brightness. 0% is for black, 100% is for white.
+        </div>
+</body>
+</html>
