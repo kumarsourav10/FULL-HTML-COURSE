@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Links</title>
+  </head>
+    <style>
+        a:link {
+            color: red;
+            background-color: transparent;
+        }
+        a:visited {
+            color: green;
+            background-color: transparent;
+        }
+        a:hover {
+            color: blue;
+            background-color: transparent;
+        }
+        a:active{
+            color: yellow;
+            background-color: transparent;
+        }
+    </style>
+  <body>
+    <div>
+      What is a link? It is a connection from one web resource to another. A
+      link has two ends, An anchor and direction. The link starts at the
+      “source” anchor and points to the “destination” anchor, which may be any
+      Web resource such as an image, a video clip, a sound bite, a program, an
+      HTML document or an element within an HTML document. You will find many
+      websites or social media platforms ( Like YouTube, Instagram ) which link
+      an image to a URL or a text to a URL etc. This basically means that by
+      using the ‘a’ tag, you can link 1 element of the code to another element
+      that may/may not be in your code.
+
+      <!-- href stands for Hypertext Refrences -->
+    </div>
+    <p>
+      This is a link <br /><br />1
+      <a href="https://www.geeksforgeeks.org">geeksforgeeks</a>
+    </p>
+
+    <div>
+       1. An unvisited link appears underlined and blue in colour by default. <br>
+       2. A visited link appears underlined and purple in colour by default. <br>
+       3. An active link appears underlined and red in colour by default. <br><br>
+
+       <a href="https://github.com/kumarsourav10" target="_blank">Github Profile</a> <br>
+       <!-- the link will open in a new browser window or tab. -->
+
+
+       <a href="https://facebook.com" target="_top">Go to Facebook</a>
+       <!-- the link will open in the full body of the window. -->
+
+       <a href="https://google.com" target="_parent"></a>
+       <!-- the link will open in the parent frame  -->
+
+       <a href="https://instagram.com" target="_self"></a>
+       the link will open in the same window or tab.
+
+       <br> <br>
+
+       <a href="https://facebook.com" target="_blank">
+        <img src="./image/Flute 4k image.jpg" alt="Loading.." style="width: 280px; height: 250px; ">This is image</a>
+    </div>
+
+    <div>
+            <!-- This is how can you jump to the direct bookmark  -->
+
+         <a href="#t12">jump t12</a>
+         <a href="#t10">jump t10</a>
+         <a href="#t1">jump t1</a>
+
+
+
+
+        <h2 id="t1"> This is t1 </h2>
+        <h2 id="Heading"> This is heading </h2>
+        <h2 id="t4"> This is t4 </h2>
+        <h2 id="Heading"> This is heading </h2>
+        <h2 id="t2"> This is t2 </h2>
+        <h2 id="Heading"> This is heading </h2>
+        <h2 id="Heading"> This is heading </h2>
+        <h2 id="t10"> This is t10 </h2>
+        <h2 id="Heading"> This is heading </h2>
+        <h2 id="t5"> This is heading </h2>
+        <h2 id="Heading"> This is heading </h2>
+        <h2 id="t3"> This is t3 </h2>
+        <h2 id="Heading"> This is heading </h2>
+        <h2 id="Heading"> This is heading </h2>
+        <h2 id="Heading"> This is heading </h2>
+        <h2 id="t12"> This is t12 </h2>
+        <h2 id="Heading"> This is heading </h2>
+        <h2 id="Heading"> This is heading </h2>
+        <h2 id="Heading"> This is heading </h2>
+        <h2 id="t11"> This is t11 </h2>
+        <h2 id="Heading"> This is heading </h2>
+        <h2 id="Heading"> This is heading </h2>
+        <h2 id="Heading"> This is heading </h2>
+        <h2 id="t14"> This is t14 </h2>
+        <h2 id="Heading"> This is heading </h2>
+        <h2 id="Heading"> This is heading </h2>
+        <h2 id="Heading"> This is heading </h2>
+        <h2 id="t13"> This is t13 </h2>
+        <h2 id="Heading"> This is heading </h2>
+        <h2 id="Heading"> This is heading </h2>
+        <h2 id="Heading"> This is heading </h2>
+        <h2 id="Heading"> This is heading </h2>
+        <h2 id="t16"> This is t16 </h2>
+        <h2 id="Heading"> This is heading </h2>
+        <h2 id="Heading"> This is heading </h2>
+        <h2 id="Heading"> This is heading </h2>
+        <h2 id="Heading"> This is heading </h2>
+        <h2 id="Heading"> This is heading </h2>
+        <h2 id="Heading"> This is heading </h2>
+        <h2 id="t15"> This is t15 </h2>
+        <h2 id="Heading"> This is heading </h2>
+        <h2 id="Heading"> This is heading </h2>
+        <h2 id="Heading"> This is heading </h2>
+        <h2 id="Heading"> This is heading </h2>
+        <h2 id="Heading"> This is heading </h2>
+        <h2 id="Heading"> This is heading </h2>
+        <h2 id="Heading"> This is heading </h2>
+        <h2 id="t-17"> This is t17 </h2>
+        <h2 id="Heading"> This is heading </h2>
+        <h2 id="Heading"> This is heading </h2>
+        <h2 id="Heading"> This is heading </h2>
+        <h2 id="Heading"> This is heading </h2>
+        <h2 id="Heading"> This is heading </h2>
+        <h2 id="Heading"> This is heading </h2>
+        <h2 id="Heading"> This is heading </h2>
+        <h2 id="Heading"> This is heading </h2>
+        <h2 id="t-50"> This is t50 </h2>
+    </div>
+    <div>
+        <h3>Creating a download link</h3>
+ 
+   <body>
+      <a href = "">Download PDF File</a>
+   </body>
+    </div>
+  </body>
+</html>
