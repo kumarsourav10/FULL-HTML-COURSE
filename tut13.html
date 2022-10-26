@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Table</title>
+    <!-- Using Style Tag you can gice border around the rows -->
+    <style>
+        table,th,td {
+            border: 2px solid black;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            padding: 20px;
+        }
+        th, td{
+            text-align: left;
+        }
+
+        table {
+            border-spacing: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>This is Table Heading</h1>
+    <div>
+        <!-- This is table without border  -->
+        <table style="width: 40%;">
+            <tr>
+                <th>Movie Name</th>
+                <th>Director</th>
+                <th>Realse Date</th>
+            </tr>
+            <tr>
+                <td>RRR</td>
+                <td>SS Raj Mauli</td>
+                <td>2022</td>
+            </tr>
+            <tr>
+                <td>BahuBali</td>
+                <td>SS Raj Mauli</td>
+                <td>2016</td>
+            </tr>
+            <tr>
+                <td>Arundhati</td>
+                <td>Mukesh Rao</td>
+                <td>2016</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
